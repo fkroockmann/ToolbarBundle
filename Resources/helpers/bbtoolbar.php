@@ -43,7 +43,7 @@ class bbtoolbar extends AHelper
                          ->getApplication()
                          ->getContainer()
                          ->get('bundle.toolbar.config')
-                         ->getSettingsSection();
+                         ->getSection('settings');
         
         $wrapper = (isset($settings['wrapper_toolbar_id'])) ? $settings['wrapper_toolbar_id'] : '';
         
