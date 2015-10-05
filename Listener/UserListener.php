@@ -46,6 +46,13 @@ class UserListener
         $user = $event->getTarget();
 
         if ($user instanceof User && $site instanceof Site) {
+
+            $mailer = $application->getMailer();
+
+            if (null === $mailer) {
+                return;
+            }
+
             $body = $application->getRenderer()->partial(
                 'Email/NewUser.twig',
                 [
@@ -62,7 +69,7 @@ class UserListener
                 $application->getSite()
             );
 
-            $application->getMailer()->send($message);
+            $mailer->send($message);
         }
     }
 
