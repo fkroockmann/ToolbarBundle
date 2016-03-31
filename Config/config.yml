@@ -3,7 +3,7 @@ bundle:
     name: Toolbar bundle
     description:
     author: Eric Chau <eric.chau@lp-digital.fr>
-    version: 1.1.0-beta
+    version: 1.1.0
     enable: true
     bundle_loader_recipes:
         helper: [BackBee\Bundle\ToolbarBundle\Toolbar, loadHelpers]

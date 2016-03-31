@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "backbee/backbee": "~1.1.0@beta",
-        "backbee/bb-core-js": "~1.1.0@beta"
+        "backbee/backbee": "~1.1.0",
+        "backbee/bb-core-js": "~1.1.0"
     },
     "autoload": {
         "psr-4": {
