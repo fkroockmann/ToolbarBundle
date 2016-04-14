@@ -56,10 +56,12 @@ core:
                         removePlugins: 'colorbutton,find,flash,font,forms,iframe,newpage,removeformat,smiley,specialchar,stylescombo,templates'
                         removeButtons: 'About,Anchor,Image,HorizontalRule,SpecialChar'
                         extraAllowedContent: 'span(*)[id];div(*)[id];p(*)[id];h1(*)[id];h2(*)[id];h3(*)[id];h4(*)[id];h5(*)[id];ol(*)[id];ul(*)[id];li(*)[id]'
+                        extraPlugins: 'split'
                     lite:
                         title: "lite editor"
                         toolbarGroups: []
                         removePlugins: 'colorbutton,specialchar,links'
                         removeButtons: 'About,Anchor'
                         extraAllowedContent: 'span(*)[id];div(*)[id];p(*)[id];h1(*)[id];h2(*)[id];h3(*)[id];h4(*)[id];h5(*)[id];ol(*)[id];ul(*)[id];li(*)[id]'
+                        extraPlugins: 'split'
 demo: []
